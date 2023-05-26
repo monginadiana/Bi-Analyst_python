@@ -1,0 +1,13 @@
+# See https://git-scm.com/docs/gitattributes for more about git attribute files.
+
+# Mark the database schema as having been generated.
+db/schema.rb linguist-generated
+
+# Mark any vendored files as having been vendored.
+vendor/* linguist-vendored
+
+export RAILS_ENV="development"
+export DATABASE_PASSWORD="YOUR_PASSWORD"
+export CLOUD_NAME="CLOUDINARY_NAME"
+export CLOUD_API_KEY="CLOUDINARY_KEY"
+export CLOUD_API_SECRET="CLOUDINARY_SECRET"
